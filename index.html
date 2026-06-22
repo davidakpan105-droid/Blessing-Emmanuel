@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blessing Emmanuel · MLT · Professional Healthcare</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Swiper.js CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ========================================
+     STICKY NAVIGATION WITH BRAND LOGO
+     ======================================== -->
+<header class="navbar">
+    <div class="nav-container">
+        <!-- Brand Logo -->
+        <div class="brand-logo">
+            <a href="index.html">
+                <span class="logo-name">Blessing Emmanuel</span>
+                <span class="logo-title">MLT</span>
+            </a>
+        </div>
+        
+        <!-- Navigation Menu -->
+        <nav class="nav-menu" id="navMenu">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="book-consultation.html">Book Consultation</a></li>
+                <li><a href="upload-results.html">Upload Results</a></li>
+                <li><a href="student-corner.html">Student Corner</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="book-consultation.html" class="cta-button">
+                <i class="fas fa-calendar-check"></i> Book Consultation
+            </a>
+        </nav>
+        
+        <!-- Hamburger Menu (Mobile) -->
+        <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </div>
+</header>
+
+<!-- ========================================
+     HERO SECTION
+     ======================================== -->
+<section class="hero">
+    <div class="swiper hero-slider">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide hero-slide hero-slide-1">
+                <div class="hero-overlay"></div>
+                <div class="hero-content container">
+                    <div class="hero-badge">
+                        <i class="fas fa-star"></i> 10+ Years Experience
+                    </div>
+                    <h1>Professional Medical Laboratory Consultation</h1>
+                    <p>Helping patients understand laboratory results through trusted professional guidance backed by over 10 years of experience.</p>
+                    <div class="hero-buttons">
+                        <a href="book-consultation.html" class="btn btn-primary">
+                            <i class="fas fa-calendar-check"></i> Book Consultation
+                        </a>
+                        <a href="upload-results.html" class="btn btn-secondary">
+                            <i class="fas fa-upload"></i> Upload Results
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Slide 2 -->
+            <div class="swiper-slide hero-slide hero-slide-2">
+                <div class="hero-overlay"></div>
+                <div class="hero-content container">
+                    <div class="hero-badge">
+                        <i class="fas fa-microscope"></i> Expert Interpretation
+                    </div>
+                    <h1>Laboratory Result Interpretation</h1>
+                    <p>Get clear explanations of your medical laboratory results from an experienced Medical Laboratory Technician.</p>
+                    <div class="hero-buttons">
+                        <a href="book-consultation.html" class="btn btn-primary">
+                            <i class="fas fa-calendar-check"></i> Book Consultation
+                        </a>
+                        <a href="upload-results.html" class="btn btn-secondary">
+                            <i class="fas fa-upload"></i> Upload Results
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Slide 3 -->
+            <div class="swiper-slide hero-slide hero-slide-3">
+                <div class="hero-overlay"></div>
+                <div class="hero-content container">
+                    <div class="hero-badge">
+                        <i class="fas fa-graduation-cap"></i> Education & Mentorship
+                    </div>
+                    <h1>MLT Tutoring & Mentorship</h1>
+                    <p>Training and mentoring future Medical Laboratory Technicians for academic and professional success.</p>
+                    <div class="hero-buttons">
+                        <a href="student-corner.html" class="btn btn-primary">
+                            <i class="fas fa-graduation-cap"></i> Explore Programs
+                        </a>
+                        <a href="book-consultation.html" class="btn btn-secondary">
+                            <i class="fas fa-calendar-check"></i> Book Consultation
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Swiper Navigation -->
+        <div class="swiper-button-next">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="swiper-button-prev">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator">
+        <span>Scroll</span>
+        <i class="fas fa-chevron-down"></i>
+    </div>
+</section>
+
+
+<!-- ========================================
+     ABOUT SECTION - SPLIT LAYOUT
+     ======================================== -->
+<section class="about-section">
+    <div class="container">
+        <div class="about-grid">
+            <!-- LEFT SIDE - Image -->
+            <div class="about-image-wrap" data-aos="fade-right">
+                <div class="about-image-card">
+                    <div class="image-container">
+                        <img src="images/b2.jpg" alt="Blessing Emmanuel - Medical Laboratory Technician">
+                        <div class="image-badge">
+                            <span class="badge-number">10+</span>
+                            <span class="badge-text">Years Experience</span>
+                        </div>
+                        <div class="image-floating-card">
+                            <i class="fas fa-flask"></i>
+                            <div>
+                                <strong>MLT Certified</strong>
+                                <span>Medical Laboratory Technician</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- RIGHT SIDE - Content -->
+            <div class="about-content-wrap" data-aos="fade-left">
+                <div class="about-label">
+                    <span class="label-line"></span>
+                    About Me
+                </div>
+                <h2 class="about-title">
+                    Dedicated to Laboratory Science &<br> 
+                    <span class="highlight">Patient Care</span>
+                </h2>
+                
+                <p class="about-text">
+                    Blessing Emmanuel is a Medical Laboratory Technician with over ten years of experience 
+                    in laboratory science, diagnostic support, health education, consultation, and student 
+                    mentorship. Passionate about helping patients understand their laboratory results and 
+                    empowering the next generation of healthcare professionals.
+                </p>
+                
+                <!-- Stats Row -->
+                <div class="stats-row">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="10">0</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="500">0</span>
+                        <span class="stat-label">Patients Helped</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="100">0</span>
+                        <span class="stat-label">Students Mentored</span>
+                    </div>
+                </div>
+                
+                <!-- Key Highlights -->
+                <div class="highlights-grid">
+                    <div class="highlight-item">
+                        <i class="fas fa-microscope"></i>
+                        <span>Laboratory Diagnostics</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-file-medical-alt"></i>
+                        <span>Result Interpretation</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-user-graduate"></i>
+                        <span>Student Mentorship</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-heartbeat"></i>
+                        <span>Health Education</span>
+                    </div>
+                </div>
+                
+                <!-- CTA Buttons -->
+                <div class="about-buttons">
+                    <a href="book-consultation.html" class="btn btn-primary">
+                        <i class="fas fa-calendar-check"></i> Book Consultation
+                    </a>
+                    <a href="contact.html" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ========================================
+     SERVICES SECTION - SUPER COOL
+     ======================================== -->
+<section class="services-section" id="services">
+    <!-- Background Decorative Elements -->
+    <div class="services-bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+    
+    <div class="container">
+        <!-- Section Header -->
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-subtitle">
+                <i class="fas fa-bolt"></i> Premium Services
+            </span>
+            <h2 class="section-title">
+                Professional Healthcare <br>
+                <span class="gradient-text">Solutions</span>
+            </h2>
+            <p class="section-description">
+                Comprehensive laboratory and healthcare services designed to provide <br>
+                accurate diagnostics, professional guidance, and expert support.
+            </p>
+        </div>
+        
+        <!-- Services Grid -->
+        <div class="services-grid">
+            <!-- Service Card 1 -->
+            <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-card-inner">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">
+                            <i class="fas fa-file-medical-alt"></i>
+                        </div>
+                        <div class="icon-bg-pulse"></div>
+                    </div>
+                    <h3 class="service-title">Laboratory Result Explanation</h3>
+                    <p class="service-description">
+                        Get clear, professional explanations of your laboratory results from an experienced MLT.
+                    </p>
+                    <div class="service-price">
+                        <span class="price">₦5,000</span>
+                        <span class="price-separator">–</span>
+                        <span class="price">₦10,000</span>
+                    </div>
+                    <div class="service-features">
+                        <span><i class="fas fa-check-circle"></i> Detailed Analysis</span>
+                        <span><i class="fas fa-check-circle"></i> Expert Guidance</span>
+                    </div>
+                    <a href="book-consultation.html" class="service-btn">
+                        <span>Book Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Service Card 2 -->
+            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-card-inner">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <div class="icon-bg-pulse"></div>
+                    </div>
+                    <h3 class="service-title">30-Minute Online Consultation</h3>
+                    <p class="service-description">
+                        Virtual consultation sessions for personalized healthcare guidance and support.
+                    </p>
+                    <div class="service-price">
+                        <span class="price">₦10,000</span>
+                        <span class="price-separator">–</span>
+                        <span class="price">₦20,000</span>
+                    </div>
+                    <div class="service-features">
+                        <span><i class="fas fa-check-circle"></i> Virtual Session</span>
+                        <span><i class="fas fa-check-circle"></i> Personalized Care</span>
+                    </div>
+                    <a href="book-consultation.html" class="service-btn">
+                        <span>Book Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Service Card 3 -->
+            <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-card-inner">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <div class="icon-bg-pulse"></div>
+                    </div>
+                    <h3 class="service-title">Home Sample Collection Coordination</h3>
+                    <p class="service-description">
+                        Convenient home sample collection services for your laboratory testing needs.
+                    </p>
+                    <div class="service-price">
+                        <span class="price">₦3,000</span>
+                        <span class="price-separator">–</span>
+                        <span class="price">₦10,000</span>
+                    </div>
+                    <div class="service-features">
+                        <span><i class="fas fa-check-circle"></i> Home Visit</span>
+                        <span><i class="fas fa-check-circle"></i> Safe Collection</span>
+                    </div>
+                    <a href="home-sample-collection.html" class="service-btn">
+                        <span>Book Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Service Card 4 -->
+            <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="service-card-inner">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <div class="icon-bg-pulse"></div>
+                    </div>
+                    <h3 class="service-title">Health Screening Packages</h3>
+                    <p class="service-description">
+                        Comprehensive health screening packages for early detection and prevention.
+                    </p>
+                    <div class="service-price">
+                        <span class="price">₦15,000</span>
+                        <span class="price-separator">–</span>
+                        <span class="price">₦50,000</span>
+                    </div>
+                    <div class="service-features">
+                        <span><i class="fas fa-check-circle"></i> Full Screening</span>
+                        <span><i class="fas fa-check-circle"></i> Health Report</span>
+                    </div>
+                    <a href="health-screening.html" class="service-btn">
+                        <span>View Packages</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Service Card 5 -->
+            <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="service-card-inner">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="icon-bg-pulse"></div>
+                    </div>
+                    <h3 class="service-title">MLS/MLT Tutoring</h3>
+                    <p class="service-description">
+                        Professional tutoring and mentorship for Medical Laboratory Science students.
+                    </p>
+                    <div class="service-price">
+                        <span class="price">₦20,000</span>
+                        <span class="price-separator">–</span>
+                        <span class="price">₦100,000</span>
+                    </div>
+                    <div class="service-features">
+                        <span><i class="fas fa-check-circle"></i> Expert Tutoring</span>
+                        <span><i class="fas fa-check-circle"></i> Mentorship</span>
+                    </div>
+                    <a href="student-corner.html" class="service-btn">
+                        <span>Enroll Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Service Card 6 -->
+            <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                <div class="service-card-inner">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <div class="icon-bg-pulse"></div>
+                    </div>
+                    <h3 class="service-title">CV Review & Interview Preparation</h3>
+                    <p class="service-description">
+                        Professional CV review and interview coaching for healthcare professionals.
+                    </p>
+                    <div class="service-price">
+                        <span class="price">₦5,000</span>
+                        <span class="price-separator">–</span>
+                        <span class="price">₦15,000</span>
+                    </div>
+                    <div class="service-features">
+                        <span><i class="fas fa-check-circle"></i> CV Review</span>
+                        <span><i class="fas fa-check-circle"></i> Mock Interview</span>
+                    </div>
+                    <a href="student-corner.html" class="service-btn">
+                        <span>Book Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- ========================================
+     WHAT CLIENTS CAN DO - ACTION CARDS
+     ======================================== -->
+<section class="action-section">
+    <div class="container">
+        <div class="action-grid">
+            <div class="action-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="action-icon">
+                    <i class="fas fa-file-medical"></i>
+                </div>
+                <h4>Book Result Review</h4>
+                <p>Schedule professional laboratory result review sessions with expert guidance.</p>
+            </div>
+            <div class="action-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="action-icon">
+                    <i class="fas fa-upload"></i>
+                </div>
+                <h4>Upload Test Results</h4>
+                <p>Securely upload your laboratory test results for detailed explanation.</p>
+            </div>
+            <div class="action-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="action-icon">
+                    <i class="fas fa-home"></i>
+                </div>
+                <h4>Home Sample Collection</h4>
+                <p>Book convenient home sample collection appointments at your preferred time.</p>
+            </div>
+            <div class="action-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="action-icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h4>Health Screenings</h4>
+                <p>Schedule comprehensive health screening packages tailored to your needs.</p>
+            </div>
+            <div class="action-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="action-icon">
+                    <i class="fas fa-book-open"></i>
+                </div>
+                <h4>Health Education</h4>
+                <p>Read informative health education articles and stay informed.</p>
+            </div>
+            <div class="action-card" data-aos="fade-up" data-aos-delay="600">
+                <div class="action-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h4>Tutoring & Mentorship</h4>
+                <p>Access professional tutoring and mentorship programs for career growth.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- ========================================
+     STUDENT CORNER SECTION
+     ======================================== -->
+<section class="student-corner" id="student-corner">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-subtitle">
+                <i class="fas fa-graduation-cap"></i> Education & Mentorship
+            </span>
+            <h2 class="section-title">
+                Student <span class="gradient-text">Corner</span>
+            </h2>
+            <p class="section-description">
+                Empowering the next generation of Medical Laboratory Technicians through <br>
+                professional training, mentorship, and career development programs.
+            </p>
+        </div>
+        
+        <!-- Student Corner Grid -->
+        <div class="student-grid" id="studentGrid">
+            <!-- Card 1 - MLT Courses -->
+            <div class="student-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="student-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&auto=format&fit=crop&q=80" alt="MLT Courses">
+                    <div class="student-card-badge">
+                        <i class="fas fa-book-open"></i> Popular
+                    </div>
+                </div>
+                <div class="student-card-content">
+                    <div class="student-card-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>MLT Courses</h3>
+                    <p>Comprehensive Medical Laboratory Technology courses covering all essential topics and practical skills.</p>
+                    <div class="student-card-meta">
+                        <span><i class="fas fa-clock"></i> 12 Modules</span>
+                        <span><i class="fas fa-users"></i> 150+ Students</span>
+                    </div>
+                    <a href="#" class="student-btn">
+                        <span>Explore Courses</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Card 2 - Career Mentorship -->
+            <div class="student-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="student-card-image">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&auto=format&fit=crop&q=80" alt="Career Mentorship">
+                    <div class="student-card-badge">
+                        <i class="fas fa-star"></i> Featured
+                    </div>
+                </div>
+                <div class="student-card-content">
+                    <div class="student-card-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Career Mentorship</h3>
+                    <p>One-on-one mentorship programs designed to guide your career path in medical laboratory science.</p>
+                    <div class="student-card-meta">
+                        <span><i class="fas fa-clock"></i> 6 Months</span>
+                        <span><i class="fas fa-users"></i> 75+ Mentees</span>
+                    </div>
+                    <a href="#" class="student-btn">
+                        <span>Find a Mentor</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Card 3 - CV Review -->
+            <div class="student-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="student-card-image">
+                    <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=600&auto=format&fit=crop&q=80" alt="CV Review">
+                    <div class="student-card-badge">
+                        <i class="fas fa-file-pdf"></i> Top Service
+                    </div>
+                </div>
+                <div class="student-card-content">
+                    <div class="student-card-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>CV Review Service</h3>
+                    <p>Professional CV review and optimization tailored for healthcare and laboratory science positions.</p>
+                    <div class="student-card-meta">
+                        <span><i class="fas fa-clock"></i> 48hr Turnaround</span>
+                        <span><i class="fas fa-check-circle"></i> 98% Success</span>
+                    </div>
+                    <a href="#" class="student-btn">
+                        <span>Review My CV</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Card 4 - Interview Preparation -->
+            <div class="student-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="student-card-image">
+                    <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&auto=format&fit=crop&q=80" alt="Interview Preparation">
+                    <div class="student-card-badge">
+                        <i class="fas fa-fire"></i> Hot
+                    </div>
+                </div>
+                <div class="student-card-content">
+                    <div class="student-card-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Interview Preparation</h3>
+                    <p>Mock interviews and preparation sessions to help you ace your healthcare job interviews.</p>
+                    <div class="student-card-meta">
+                        <span><i class="fas fa-clock"></i> 2hr Sessions</span>
+                        <span><i class="fas fa-users"></i> 200+ Prepared</span>
+                    </div>
+                    <a href="#" class="student-btn">
+                        <span>Prepare Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Card 5 - Certification Exam Coaching -->
+            <div class="student-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="student-card-image">
+                    <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=80" alt="Certification Exam Coaching">
+                    <div class="student-card-badge">
+                        <i class="fas fa-certificate"></i> Premium
+                    </div>
+                </div>
+                <div class="student-card-content">
+                    <div class="student-card-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Certification Exam Coaching</h3>
+                    <p>Intensive coaching programs for ASCP, AMT, and other medical laboratory certification exams.</p>
+                    <div class="student-card-meta">
+                        <span><i class="fas fa-clock"></i> 8 Week Program</span>
+                        <span><i class="fas fa-check-circle"></i> 92% Pass Rate</span>
+                    </div>
+                    <a href="#" class="student-btn">
+                        <span>Start Coaching</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Card 6 - Lab Skills Workshop -->
+            <div class="student-card" data-aos="fade-up" data-aos-delay="600">
+                <div class="student-card-image">
+                    <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=600&auto=format&fit=crop&q=80" alt="Lab Skills Workshop">
+                    <div class="student-card-badge">
+                        <i class="fas fa-microscope"></i> New
+                    </div>
+                </div>
+                <div class="student-card-content">
+                    <div class="student-card-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3>Lab Skills Workshop</h3>
+                    <p>Hands-on laboratory skills workshops covering essential techniques and modern diagnostic methods.</p>
+                    <div class="student-card-meta">
+                        <span><i class="fas fa-clock"></i> 3 Day Workshop</span>
+                        <span><i class="fas fa-users"></i> Limited Seats</span>
+                    </div>
+                    <a href="student-corner.html" class="student-btn">
+                        <span>Register Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Show More / Show Less Button -->
+        <div class="show-more-wrapper" data-aos="fade-up">
+            <button class="show-more-btn" id="showMoreBtn">
+                <span class="btn-text">Show More Programs</span>
+                <i class="fas fa-chevron-down"></i>
+            </button>
+        </div>
+        
+        <!-- CTA Banner -->
+        <div class="student-cta" data-aos="fade-up" data-aos-delay="200">
+            <div class="cta-content">
+                <div class="cta-icon">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+                <div class="cta-text">
+                    <h3>Ready to Advance Your Career?</h3>
+                    <p>Join our mentorship program and get personalized guidance from an experienced MLT professional.</p>
+                </div>
+                <a href="student-corner.html" class="cta-primary-btn">
+                    <i class="fas fa-rocket"></i> Enroll Now
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========================================
+     CONTACT SECTION
+     ======================================== -->
+<section class="contact-section" id="contact">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-subtitle">
+                <i class="fas fa-envelope"></i> Get In Touch
+            </span>
+            <h2 class="section-title">
+                Let's <span class="gradient-text">Connect</span>
+            </h2>
+            <p class="section-description">
+                Have questions or need assistance? Reach out to us and we'll respond within 24 hours.
+            </p>
+        </div>
+        
+        <div class="contact-grid">
+            <!-- LEFT: Contact Information -->
+            <div class="contact-info" data-aos="fade-right">
+                <div class="contact-info-card">
+                    <h3>Contact Information</h3>
+                    <p>We're here to help with all your laboratory and healthcare needs.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="label">Phone</span>
+                                <a href="tel:09069118912" class="value">0906 911 8912</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="label">Email</span>
+                                <a href="mailto:gift4love18@gmail.com" class="value">gift4love18@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="label">Business Hours</span>
+                                <span class="value">Mon - Fri: 8:00 AM - 6:00 PM</span>
+                                <span class="value-sub">Sat: 9:00 AM - 2:00 PM</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="label">Location</span>
+                                <span class="value">Lagos, Nigeria</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Social Links -->
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- RIGHT: Contact Form -->
+            <div class="contact-form-wrapper" data-aos="fade-left">
+                <div class="form-card">
+                    <h3>Send a Message</h3>
+                    <p>Fill in the form below and we'll get back to you promptly.</p>
+                    
+                    <form class="contact-form" id="contactForm" novalidate>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fullName">
+                                    <i class="fas fa-user"></i> Full Name <span class="required">*</span>
+                                </label>
+                                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+                                <div class="error-message" data-error="name">
+                                    <i class="fas fa-exclamation-circle"></i> Please enter your full name
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">
+                                    <i class="fas fa-envelope"></i> Email Address <span class="required">*</span>
+                                </label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                                <div class="error-message" data-error="email">
+                                    <i class="fas fa-exclamation-circle"></i> Please enter a valid email address
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">
+                                <i class="fas fa-phone"></i> Phone Number <span class="required">*</span>
+                            </label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                            <div class="error-message" data-error="phone">
+                                <i class="fas fa-exclamation-circle"></i> Please enter a valid phone number
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">
+                                <i class="fas fa-tag"></i> Subject <span class="required">*</span>
+                            </label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="consultation">Book Consultation</option>
+                                <option value="upload">Upload Results</option>
+                                <option value="screening">Health Screening</option>
+                                <option value="tutoring">MLT Tutoring</option>
+                                <option value="mentorship">Career Mentorship</option>
+                                <option value="general">General Inquiry</option>
+                            </select>
+                            <div class="error-message" data-error="subject">
+                                <i class="fas fa-exclamation-circle"></i> Please select a subject
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">
+                                <i class="fas fa-comment"></i> Message <span class="required">*</span>
+                            </label>
+                            <textarea id="message" name="message" rows="5" placeholder="Describe your inquiry or request in detail..." required></textarea>
+                            <div class="char-count">
+                                <span id="charCount">0</span> / 500 characters
+                            </div>
+                            <div class="error-message" data-error="message">
+                                <i class="fas fa-exclamation-circle"></i> Please enter a message (minimum 10 characters)
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn" id="submitBtn">
+                            <span class="btn-default">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </span>
+                            <span class="btn-loading" style="display: none;">
+                                <i class="fas fa-spinner fa-spin"></i> Sending...
+                            </span>
+                            <span class="btn-success" style="display: none;">
+                                <i class="fas fa-check-circle"></i> Sent Successfully!
+                            </span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========================================
+     SUCCESS MODAL
+     ======================================== -->
+<div class="success-modal" id="successModal">
+    <div class="modal-overlay"></div>
+    <div class="modal-content" data-aos="zoom-in">
+        <div class="modal-icon">
+            <i class="fas fa-check-circle"></i>
+        </div>
+        <div class="modal-icon-bg"></div>
+        <h3>Message Sent Successfully!</h3>
+        <p>Thank you for reaching out. We'll review your message and get back to you shortly.</p>
+        <div class="modal-redirect">
+            <i class="fas fa-arrow-right"></i>
+            <span>Redirecting to WhatsApp...</span>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+        </div>
+        <button class="modal-btn" id="modalBtn">
+            <i class="fab fa-whatsapp"></i> Open WhatsApp Now
+        </button>
+        <button class="modal-close" id="modalClose">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+</div>
+
+<!-- Swiper.js JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
